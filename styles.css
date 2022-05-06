@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 270px;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.header-links {
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  min-height: 200px;
+  color: white;
+}
+
+.button {
+  background-color: #3882f6;
+  max-width: fit-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+  font-size: 25px;
+  font-weight: 500;
+  font-weight: 1000;
+  color: #1f2937;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.first-square,
+.second-square,
+.third-square,
+.fourth-square {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagerino {
+  width: 150px;
+  height: 150px;
+}
+
+.section-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  padding: 80px 80px 80px 80px;
+}
+
+.testimony {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f29379f;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#Thor {
+  color: #1f2937;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 370px;
+}
+
+.fourth-section {
+  padding: 60px 200px 60px 200px;
+}
+
+.blue-section {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  padding: 40px 20px 40px 20px;
+  gap: 60px;
+}
+
+.button-2 {
+  background-color: #3882f6;
+  max-width: fit-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+  border: 1.5px solid white;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.541);
+  padding: 20px 0px 20px 0px;
+  font-size: 15px;
+}
